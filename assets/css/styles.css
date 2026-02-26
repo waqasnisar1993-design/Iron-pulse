@@ -8,6 +8,7 @@
     --primary-color: rgba(111, 48, 9, 0.716); 
     --secondary-color: rgb(240, 239, 212);
     --highlight-color-light: #00fff0;
+    --highlight-color: rgb(155, 16, 16);
 }
 
 
@@ -21,6 +22,10 @@ body {
 
 .col-12 {
     padding: 1rem;
+}
+
+.sub-heading-color {
+    color: var(--highlight-color);
 }
 
 h1,
@@ -55,6 +60,19 @@ h3 {
 
 #trainers .card-body {
     height: auto;
+}
+
+/*Buttons*/
+
+.custom-button-outline {
+    border: 3px solid var(--highlight-color);
+    padding: 7px 25px;
+    color: var(--highlight-color)
+}
+
+.custom-button-outline:hover {
+    background-color: var(--highlight-color-light);
+    color: black;
 }
 
 /* Footer / contact */
